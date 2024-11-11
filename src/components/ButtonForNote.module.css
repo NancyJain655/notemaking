@@ -1,0 +1,23 @@
+.name {
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+.nameContain{
+    padding: 2rem 1rem;
+    width: 80%;
+    text-align: left;
+    overflow: hidden;
+}
+.button {
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    padding-inline: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button:hover {
+    background-color: #DAE5F5;
+    cursor: pointer;
+}

@@ -1,0 +1,87 @@
+
+/*STYLING FOR BUTTON ON MODAL COMPONENT*/
+.buttonContain {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.createButton {
+    background-color: #001F8B;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 12px;
+    font-size: 0.9rem;
+} 
+
+/* Styling for modal container*/
+.modalContain {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);   
+}
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    max-width: 30rem;
+    padding: 1.5rem;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 12px;
+}
+.modal h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+/* Styling for color component in modal*/
+.colorContain {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-end;
+    margin-top: 0.5rem;
+}
+.colorContain p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+.colorPicker{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+.color {
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* Styling for input area in modal*/
+
+.inputContain {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inputContain label {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.inputContain input {
+    width: 70%;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    padding: 0.5rem 1.5rem; 
+    font-size: 1.2rem;
+}
